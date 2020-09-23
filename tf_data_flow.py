@@ -14,23 +14,6 @@ from tensorflow.python.ops import control_flow_ops
 from tensorflow.python.ops import data_flow_ops
 from PIL import Image, ImageEnhance
 import PIL
-from ztq_pylib.ztf_git.tf_img_process import *
-
-
-
-
-#find_out_mask_module = tf.load_op_library('/home/ztq/user_ops/find_out_mask.so')
-slim = tf.contrib.slim
-DEPTH_IMG_SIZE = 32
-
-
-
-
-
-
-
-
-
 
 
 def _load_batch_filename(input_queue, original_img_shape, channels, batch_size, all_image_num, to_height=224, to_width=224,img_norm=True, resize_type = 0):
